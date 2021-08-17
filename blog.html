@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<title>Prediction section</title>
+
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+
+<!-- Main css -->
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,700" rel="stylesheet">
+<style>
+     #black {
+          color: black;
+     }
+</style>
+</head>
+<body>
+
+<!-- PRE LOADER -->
+
+<div class="preloader">
+     <div class="sk-spinner sk-spinner-wordpress">
+          <span class="sk-inner-circle"></span>
+     </div>
+</div>
+
+<!-- Navigation section  -->
+
+<div class="navbar navbar-default navbar-static-top" role="navigation">
+     <div class="container">
+
+          <div class="navbar-header">
+               <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+               <h2>Devansh Taliyan</h2>
+               </button>
+               <a href="index.html" class="navbar-brand">Devansh Taliyan</a>
+          </div>
+          <div class="collapse navbar-collapse">
+               <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">Arsenic Contamination Visualisation</a></li>
+                    <li><a href="index1.html">Data Analysis</a></li>
+                    <li class="active"><a href="blog.html">Prediction</a></li>
+                    <li><a href="contact.html">Contact me</a></li>
+               </ul>
+          </div>
+
+  </div>
+</div>
+
+<!-- Blog Section -->
+
+<section id="blog">
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-offset-1 col-md-10 col-sm-12">
+                    <div class="section-title">
+                         <h3>Prediction section: </h3>
+                         
+                    </div>
+                    <p id="black">Based on the data such as Arsenic Levels, pH, Zinc & Chlorine concentrations, TDS, a prediction model was built to classify & predict the possibility of an area being contaminated with high levels of Arsenic. I used a Logistic regression model for this purpose and the model classified an area into 0 (safe zone) or 1 (Arsenic affected zone) based on data that was input.  This shows how predictive analysis models can be used to find the relationship between variables and predict the probability of an event happening in the future. Such a model could be used to identify hotspots for further action and safe zones that are safe to be used.
+                    </p>
+<img src="images/Screenshot (143).png" class="img-responsive" alt="About">
+<hr>
+
+                    
+                    <p>Below is an example of the results the model shows based on the data inputted:</p>
+                    <img src="images/Screenshot (144).png" class="img-responsive" alt="About">
+                    <img src="images/Screenshot (145).png" class="img-responsive" alt="About">
+                    <p>The examples above showed predictions given by my model to help predict the possibility of an area having high levels of Arsenic on the basis of physical features through logistic regression. Zone 1 was predicted to be safe whereas Zone 2 has a high probability of being contaminated with Arsenic</p>
+                    <p>Confusion matrix is a table which describes the performance of a prediction model. A confusion matrix contains the actual values and predicted values. The confusion matrix of my prediction model can be seen below: </p>
+                    <img src="images/matrix.png" class="img-responsive" alt="About">
+                    <p>The accuracy score of my model comes out to be 69%. This is possibly due to innaccuracies and limitations in my dataset. Overall, finding data was a tedious task for the model. Also, I expected more correlation with variables I used than what I got. In the future, I plan on including geological features (organic content, silt content) along with other features since academic research has shown that Arsenic contamination depends a lot on geological parameters which I didn't consider. I also plan on using larger and more reliable datasets. </p>
+                    <h3> Case study: IIT Kharagphur AI based prediction model</h3>
+                    <p>IIT Kharagpur have developed an AI model for detecting Arsenic Levels in groundwater based on geoscience. Researchers from IIT Kharagpur have successfully predicted the distribution of groundwater arsenic and human health risk in the affected areas using AI algorithms on environmental and geological and human usage parameters</p>
+               <p>The model has shown a strong correlation of ‘surficial aquitard thickness’ and ‘groundwater-fed irrigation’ to regional-scale As-hazard. The model has been effective in classifying regins into high and low risk zones and quantifying number of people exposed. According to the model, the worst affected zones are the districts of Nadia (93%) and Murshidabad (82%)</p>
+               <p> It proves as a great learning point for me since it shows how geographic features could be effective at predicting Arsenic Levels and have a stronger correlation with the problem. The model has successfully modeled distribution of groundwater contaminants and find safe zones for drinking.</p>
+          
+          </div>
+          
+
+          </div>
+     </div>
+</section>
+
+<!-- Footer Section -->
+
+<footer>
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-3 col-sm-3">
+                    <i class="fa fa-magnet"></i>
+               </div>
+
+               <div class="col-md-offset-1 col-md-4 col-sm-offset-1 col-sm-3">
+                    <p><a href="mailto:youremail@gmail.com">devanshtaliyan2004@gmail.com</a></p>
+                    <p>(+91) 8903515234</p>
+               </div>
+
+               <div class="clearfix col-md-12 col-sm-12">
+                    <hr>
+               </div>
+
+               <div class="col-md-6 col-sm-6">
+                    <div class="footer-copyright">
+                         <p>© Devansh Taliyan</p>
+                    </div>
+               </div>
+
+          </div>
+     </div>
+</footer>
+
+
+
+
+<!-- SCRIPTS -->
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+</html>

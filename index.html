@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<title>All about Arsenic Poisining</title>
+<link rel="stylesheet" href="css/style.css">
+
+<style>
+     body {
+     background-color:black;
+}
+#about{
+  background-color: white;
+}
+.banner{
+  background-color: white;
+}
+#title2 {
+    color: black;
+    font-weight: bold;
+    font-size: large;
+  }
+</style>
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+
+<!-- Main css -->
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,700" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- PRE LOADER -->
+
+     <section class="banner" role="banner" id="banner">
+          <div class="navbar navbar-default navbar-static-top" role="navigation">
+               <div class="container">
+                    <div id="hey">
+                         <div class="navbar-header">
+                              <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                              <h2>Devansh Taliyan</h2>
+                              </button>
+                              <a href="index.html" class="navbar-brand">Devansh Taliyan</a>
+                         </div>
+                         <div class="collapse navbar-collapse">
+                              <ul class="nav navbar-nav navbar-right">
+                                   <li class="active"><a href="index.html">Arsenic Contamination Visualisation</a></li>
+                                   <li ><a href="index1.html">Data Analysis</a></li>
+                                   <li><a href="blog.html">Prediction</a></li>
+                                   <li><a href="contact.html">Contact me</a></li>
+                              </ul>
+                         </div>
+                    </div>
+
+
+            </div>
+          </div>
+
+
+            <div class="container">
+              <div class="col-md-10">
+                <div class="banner-text text-center">
+                  <h1 id="hey1">Arsenic Poisining</h1>
+                  <h3 id="hey">Analysing the impact of Arsenic Poisining across West Bengal</h3>
+
+                    </div>
+                <!-- banner text -->
+              </div>
+            </div>
+          </section>
+<div class="preloader">
+     <div class="sk-spinner sk-spinner-wordpress">
+          <span class="sk-inner-circle"></span>
+     </div>
+</div>
+
+<!-- About Section -->
+
+<section id="about">
+     <div class="container">
+          <div class="row">
+
+                    <div class="col-md-8 col-sm-12">
+                         <img src="images/hey.jpg" class="img-responsive" alt="About">
+                    </div>
+
+                    <div class="col-md-4 col-sm-12">
+                         <h1>Arsenic Poisining</h1>
+                         <p>Arsenic Poisoning is a phenomenon wherein arsenic, the element in large quantities contaminates water & exposes villagers to increased risk of cancer and affects a children’s brain development. Arsenic contamination in groundwater has increased by 145% in the past five years across communities in Northern India . Multiple studies have found high levels of arsenic in water samples from hand pumps installed to access groundwater for drinking in rural regions due to lack of access to clean water.</p>
+                         <p> My goal to make the website is to raise awareness about this problem and visualize its impact through data science.</p>
+                    </div>
+
+                    <div class="clearfix"></div>
+
+                     <hr>
+
+                    <p>According to the UN, the acceptable standard of Arsenic level in groundwater is 10 ug/L or 10 ppb. West Bengal, is an Indian state which one of the most affected by arsenic contamination of groundwater above the permissible level. </p>
+                    <p>The interactive map below shows the maximum arsenic concentrations across districts in West Bengal in ppb.</p>
+                    <iframe src="https://dt2004.github.io/maxmap/" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="0" marginheight="0px" marginwidth="0px" height="700px" width="100%px" allowfullscreen></iframe>
+                   <p> As one can see, many districts have Arsenic concentrations above the advised 10 ppb value and are severly affected by the contamination of Arsenic.
+                        One trend that is visible due to the interactive map is that highly affected areas with the highest arsenic concentrations cover the eastern side of Bhagirathi River and lay on the eastern part of West Bengal.
+                        For example, Murshidabad district (266.54 ppb), Nadia district (117.12 ppb) & North 24 Paragnas are on the eastern side of the state.
+                   </p>
+                   <iframe src="https://dt2004.github.io/Populationmap/" style="border:0px #ffffff none;" name="iFramecode" scrolling="no" frameborder="0" marginheight="0px" marginwidth="0px" height="700px" width="100%px" allowfullscreen></iframe>
+               <p> As expected, regions with higher Arsenic values have a larger percentage of the population affected with the problem. Another thing to be noted is that regions with Arsenic values lower than 4 ppb are considered safe and people in the districts are not at risk currently. Therefore, As contamination level & population affected have a direct correlation.</p>
+
+               
+               </div>
+
+          </div>
+     </div>
+</section>
+<div class="container">
+     <center>
+         <div class="col-sm-12">
+                     <div class="card mb-3">
+                      <div class="card-header">
+                         <h5>Details about districts affected by Arsenic Contamination</h5></div>
+                         <div class="card-body">
+                             <canvas id="barColor" width="100%" height="50"></canvas>
+                         </div>
+                     </div>
+                 </div>
+     </center>         
+ </div>
+ <div class="container">
+     <center>
+         <div class="col-sm-12">
+                     <div class="card mb-3">
+                      <div class="card-header">
+                         <h5>Details about districts affected by Arsenic Contamination</h5></div>
+                         <div class="card-body">
+                             <canvas id="barColor1" width="100%" height="50"></canvas>
+                         </div>
+                     </div>
+                 </div>
+     </center>         
+ </div>
+ <div class="container">
+     <center>
+         <div class="col-sm-12">
+                     <div class="card mb-3">
+                      <div class="card-header">
+                         <h5>Details about districts affected by Arsenic Contamination</h5></div>
+                         <div class="card-body">
+                             <canvas id="barColor2" width="100%" height="50"></canvas>
+                         </div>
+                     </div>
+                 </div>
+     </center>         
+     <p>The graphs above visualise important information like habitations affected by Arsenic, population at risk of Arsenic Poisining and % of population at risk. These act as important parameters in assesing, tracking and measuring the impact of Arsenic contamination on a district</p>
+ <p>The graphs make it visible that the top 3 most affected districts are Murshidabad, Nadia & North 24 Paragnas. Along, with high levels of Arsenic Contamination and a large number of habitations affected in the district, they possess a large population which puts more people at risk of Arsenic Poisining. On the other hand, districts such as Bankura, Howrah & Hooghly have relativly low number of habitations affected and the arsenic levels therein do not put the population at a very serious risk </p>
+ 
+</div>
+<!-- Footer Section -->
+<hr>
+<hr>
+<footer>
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-3 col-sm-3">
+                    <i class="fa fa-magnet"></i>
+               </div>
+
+               <div class="col-md-offset-1 col-md-4 col-sm-offset-1 col-sm-3">
+                    <p><a href="mailto:youremail@gmail.com">devanshtaliyan2004@gmail.com</a></p>
+                    <p>(+91) 8903515234</p>
+               </div>
+
+               <div class="clearfix col-md-12 col-sm-12">
+                    <hr>
+               </div>
+
+               <div class="col-md-6 col-sm-6">
+                    <div class="footer-copyright">
+                         <p>© Devansh Taliyan</p>
+                    </div>
+               </div>
+
+          </div>
+     </div>
+</footer>
+
+
+
+
+<!-- SCRIPTS -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/custom.js"></script>
+<!-- Page level plugin JavaScript-->
+<script src="vendor/chart.js/Chart.min.js"></script>
+<!-- Custom scripts for all pages-->
+<script src="js/charts/detail.js"></script>
+<script src="js/charts/Habitationaffected.js"></script>
+<script src="js/charts/Affectedpop.js"></script>
+</body>
+</html>
