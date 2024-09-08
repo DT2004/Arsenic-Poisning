@@ -1,1 +1,2 @@
-Uses machine learning models to assess threat of arsenic poisining in two states based on different parameters inputted
+## Data Analytics Dashboard
+Created a dashboard to understand the impact of Arsenic Poisoning: Used basic machine learning techniques, data analytics, visualization and web-design techniques. The aim was to create an interactive dashboard featuring a geo-map and insightful analysis to understand this problem and identify hotspots for better resource allocation and response time. Through the tool, we can also assess threat of arsenic poisining in two states based on different parameters inputted.
